@@ -22,7 +22,7 @@ logger.addHandler(logging.StreamHandler())
 
 # parse the snapshot message
 def parse_snapshot(ws_data):
-    exit;
+    exit
 
 # parse the ws message and understand what to do
 def parse_message(ws_data):
